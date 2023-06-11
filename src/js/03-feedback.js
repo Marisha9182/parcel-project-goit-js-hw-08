@@ -23,7 +23,7 @@ function onFormSubmit(e) {
 
     localStorage.removeItem(saveKey);
     e.currentTarget.reset();
-    dataForm = {};
+    formData = {};
 
     if (localStorage.getItem('feedback-form-state') !== null) {
         document.getElementById('email').value = formData.email;
